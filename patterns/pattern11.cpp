@@ -1,23 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-    char h = 'A';
-    int n ;
-    cin>>n ; 
-    h = h + (n-1);
-    for(int i = 0 ; i<n ; i++)
-    {
-        for(int j = 0 ; j<=i ; j++)
-        {
-            cout<<" "<<h<<" ";
-            if(j!=i)
-            {
-                h++;
-            }
+
+int main() {
+    int n;
+    cin >> n;        // Example: 4
+    char end = 'A' + n - 1; // 'D' if n=4
+
+    for (int i = 0; i < n; i++) {
+        char ch = end - i;  // Starting character of this row
+        for (int j = 0; j <= i; j++) {
+            cout << ch++ << " ";
         }
-        h--;
-        cout<<endl;
+        cout << endl;
     }
+
     return 0;
 }
