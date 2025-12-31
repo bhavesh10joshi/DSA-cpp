@@ -1,9 +1,8 @@
 #include<iostream>
 using namespace std;
-int count = 0 ;
-void print()
+void print(int n , int count)
 {
-    if(count >= 5)
+    if(count >= n)
     {
         return;
     }
@@ -11,11 +10,13 @@ void print()
     {
         cout<<"My name is bhavesh Joshi "<<endl;
         count++;
-        print();
+        print(n , count);
     }
 }
 int main()
 {
-    print();
+    int n , count = 0;
+    cin>>n;
+    print(n , count);
     return 0;
 }

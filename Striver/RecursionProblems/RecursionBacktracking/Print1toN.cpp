@@ -1,21 +1,21 @@
 #include<iostream>
 using namespace std;
-void print(int n)
+void BPrint(int n , int count)
 {
-    if(n<=0)
+    if(count>=n)
     {
         return;
     }
     else
     {
-        cout<<n<<endl;
-        print(-- n);
+        BPrint(n , count+1);
+        cout<<count<<endl;
     }
 }
 int main()
 {
     int n;
     cin>>n;
-    print(n);
+    BPrint(n , 1);
     return 0;
 }

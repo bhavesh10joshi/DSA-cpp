@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int count = 1;
-void print(int n)
+void print(int n , int count)
 {
     if(count > n){
         return;
@@ -10,13 +9,13 @@ void print(int n)
     {
         cout<<count<<" ";
         count++;
-        print(n); 
+        print(n , count); 
     }
 }
 int main()
 {
-    int n;
+    int n , count = 0;
     cin>>n;
-    print(n);
+    print(n , count);
     return 0;
 }
