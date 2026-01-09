@@ -1,57 +1,78 @@
 #include<bits/stdc++.h>
-#include<bits/stdc++.h>
 using namespace std;
-vector<int>temp;
-void Union(vector<int>vec1 , vector<int>vec2)
+vector<int>vec;
+void Union(vector<int>arr1 , vector<int>arr2)
 {
-    int i = 0 , j = 0;
-    if(vec1[i]<=vec2[i])
+    int i = 0;
+    int j = 0;
+    vec.push_back(arr1[0]);
+    while(i<arr1.size() && j<arr2.size())
     {
-        temp.push_back(vec1[i]);
-    }
-    else{
-        temp.push_back(vec2[i]);
-    }
-    while(i<vec1.size() && j<vec2.size())
-    {
-        if(vec1[i]<=temp[temp.size()-1])
+        if(arr1[i] <= arr2[j] && arr1[i] != vec[vec.size()-1])
+        {
+            vec.push_back(arr1[i]);
+            i++;
+        }
+        if(arr1[i]<arr2[j] && arr1[i] == vec[vec.size()-1])
         {
             i++;
         }
-        if(vec1[i]<=temp[temp.size()-1])
-        {
-            temp.push_back(vec1[i]);
-            i++;
+        if(arr1[i] > arr2[j])
+        {   
+            j++;
         }
-    } 
-}
-int main(){
-    vector<int>vec1;
-    vector<int>vec2;
-    int n1;
+    }
+    while(i<arr1.size())
+    {
+        vec.push_back(arr1[i]);
+        i++;
+    }
+    while(j<arr2.size())
+    {
+        vec.push_back(arr2[j]);
+        j++;
+    }
+} 
+int main()
+{
+    vector<int>arr1;
+    vector<int>arr2;
+    
+    int n1,n2;
     cin>>n1;
+    cin>>n2;
+
     for(int i = 0 ; i<n1 ; i++)
     {
         int no;
         cin>>no;
-        vec1.push_back(no);
+        arr1.push_back(no);
     }
-    int n2;
-    cin>>n2;
     for(int j = 0 ; j<n2 ; j++)
     {
         int no;
         cin>>no;
-        vec2.push_back(no);
+        arr2.push_back(no);
     }
-    
-    Union(vec1 , vec2);
-
-    cout<<"The answer is "<<endl;
-
-    for(int j = 0 ; j<temp.size() ; j++)
-    {
-        cout<<temp[j]<<" ";
-    }
+    Union(arr1 , arr2);
+    cout<<"The answer of this "<<endl;
+    for(int i = 0 ; i<vec.size() ; i++)
+    {   
+        cout<<vec[i]<<" ";
+    }   
     return 0;
 }
+// 6
+// 6
+// 1
+// 1
+// 2
+// 3
+// 4
+// 5
+// 2
+// 3
+// 4
+// 4
+// 5
+// 6
