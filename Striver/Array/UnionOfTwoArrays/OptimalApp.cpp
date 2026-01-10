@@ -5,34 +5,51 @@ void Union(vector<int>arr1 , vector<int>arr2)
 {
     int i = 0;
     int j = 0;
-    vec.push_back(arr1[0]);
     while(i<arr1.size() && j<arr2.size())
     {
-        if(arr1[i] <= arr2[j] && arr1[i] != vec[vec.size()-1])
+        if(arr1[i]<arr2[j])
         {
-            vec.push_back(arr1[i]);
-            i++;
-        }
-        if(arr1[i]<arr2[j] && arr1[i] == vec[vec.size()-1])
-        {
+            if(vec.empty() || vec.back() != arr1[i])
+            {
+                vec.push_back(arr1[i]);
+            }
             i++;
         }
         if(arr1[i] > arr2[j])
-        {   
+        {
+            if(vec.empty() || vec.back() != arr2[j])
+            {
+                vec.push_back(arr2[j]);
+            }            
+            j++;
+        }
+        if(arr1[i] == arr2[j])
+        {
+            if(vec.empty() || vec.back() != arr1[i])
+            {
+                vec.push_back(arr1[i]);
+            }
+            i++;
             j++;
         }
     }
     while(i<arr1.size())
     {
-        vec.push_back(arr1[i]);
+        if(vec.empty() || vec.back() != arr1[i])
+        {
+            vec.push_back(arr1[i]);
+        }
         i++;
     }
     while(j<arr2.size())
     {
-        vec.push_back(arr2[j]);
+        if(vec.empty() || vec.back() != arr2[j])
+        {
+            vec.push_back(arr2[j]);
+        }
         j++;
     }
-} 
+}
 int main()
 {
     vector<int>arr1;
@@ -75,4 +92,4 @@ int main()
 // 4
 // 4
 // 5
-// 6
+// 6    
