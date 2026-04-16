@@ -11,19 +11,18 @@ int main()
     {
         int no;
         cin>>no;
+
         arr[i] = no;
     }
-
-    // swapping logic 
-    for(int i = 0 , j=n-1 ; i<=j; i++ , j--)
-    {
-        swap(arr[i] , arr[j]);
-    }
+     
+    long long int sum = 0 ;
 
     for(int i = 0 ; i<n ; i++)
     {
-        cout<<arr[i]<<" ";
+        sum = sum + arr[i];
     }
+
+    cout<<sum<<endl;
 
     return 0;
 }

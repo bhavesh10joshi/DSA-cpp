@@ -7,22 +7,28 @@ int main()
 
     int arr[n];
 
+    bool check = true;
     for(int i = 0 ; i<n ; i++)
     {
         int no;
         cin>>no;
         arr[i] = no;
+        if(i>=1)
+        {
+            if(arr[i]<arr[i-1])
+            {
+                check=false;
+            }
+        }
     }
 
-    // swapping logic 
-    for(int i = 0 , j=n-1 ; i<=j; i++ , j--)
+    if(check)
     {
-        swap(arr[i] , arr[j]);
+        cout<<"YES"<<endl;
     }
-
-    for(int i = 0 ; i<n ; i++)
+    else
     {
-        cout<<arr[i]<<" ";
+        cout<<"NO"<<endl;
     }
 
     return 0;

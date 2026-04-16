@@ -5,6 +5,9 @@ int main()
     int n;
     cin>>n;
 
+    int el;
+    cin>>el;
+
     int arr[n];
 
     for(int i = 0 ; i<n ; i++)
@@ -14,16 +17,17 @@ int main()
         arr[i] = no;
     }
 
-    // swapping logic 
-    for(int i = 0 , j=n-1 ; i<=j; i++ , j--)
-    {
-        swap(arr[i] , arr[j]);
-    }
+    int count = 0;
 
     for(int i = 0 ; i<n ; i++)
     {
-        cout<<arr[i]<<" ";
+        if(arr[i] == el)
+        {
+            count++;
+        }
     }
+
+    cout<<count<<endl;
 
     return 0;
 }
