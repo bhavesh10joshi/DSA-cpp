@@ -7,9 +7,9 @@ int main()
 
     for(int i = 0 ; i<m ; i++)
     {
-        int n;
+        int n, ans = -1;
         cin>>n;
-        int temp[n-2] = {0};
+        int temp[n-1] = {0};
 
         for(int j = 0 ; j<n ; j++)
         {
@@ -19,10 +19,10 @@ int main()
             temp[no] = temp[no] + 1;
             if(temp[no] == 2)
             {
-                cout<<no<<endl;
-                break;
+                ans = no;
             }
         }
+        cout<<ans<<endl;
     }
     return 0;
 }
