@@ -3,56 +3,52 @@
 using namespace std;
 int main()
 {
-    vector<int>vec;
-    int m;
-    cin>>m;
-    
-    for(int i = 0 ; i<m ; i++)
+    int n;
+    cin>>n;
+
+    for(int j = 0 ; j<n ; j++)
     {
-        int l;
-        cin>>l;
-        int arr1[l];
+        vector<int>vec1;
+        vector<int>vec2;
+        vector<int>vec;
+        int n1;
+        cin>>n1;
 
-        for(int i = 0 ; i<l ; i++)
+        for(int k = 0 ; k<n1 ; k++)
         {
             int no;
             cin>>no;
-            arr1[i] = no;
+            vec1.push_back(no);
         }
-        for(int i = 0 ; i<l ; i++)
+
+        int n2;
+        cin>>n2;
+
+        for(int k = 0 ; k<n2 ; k++)
         {
             int no;
             cin>>no;
-            arr1[i] = no;
+            vec2.push_back(no);
         }
 
-        int k;
-        cin>>k;
-
-        int arr2[k];
-
-        for(int i = 0 ; i<k ; i++)
+        for(int i = 0 ; i<vec1.size() ; i++)
         {
-            int no;
-            cin>>no;
-            arr2[i] = no; 
-        }
-
-        for(int n = 0 ; n<l ; n++)
-        {
-            for(int i = 0 ; i<k ; i++)
+            for(int k = 0 ; k<vec2.size() ; k++)
             {
-                if(arr1[n] == arr2[k])
+                if(vec1[i] == vec2[k])
                 {
-                    vec.push_back(arr1[n]);
+                    vec.push_back(vec1[i]);
+                    vec1.erase(vec1.begin() + i);
+                    vec2.erase(vec2.begin() + k);
+                    i--;
+                    k--;
                     break;
                 }
             }
         }
-
-        for(int j = 0 ; j<vec.size() ; j++)
+        for(int i = 0 ; i<vec.size() ; i++)
         {
-            cout<<vec[j]<<" ";
+            cout<<vec[i]<<" ";
         }
         cout<<endl;
     }
