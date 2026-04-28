@@ -6,6 +6,7 @@ int main()
     string a , b;
     cin>>a>>b;
     bool flag = false;
+    int i = 0 ;
 
     if(a == b)
     {
@@ -13,7 +14,7 @@ int main()
     }
     else
     {
-        for(int i = 0 ; i<a.length() && i<b.length() ; i++)
+        for(; i<a.length() && i<b.length() ; i++)
         {
             int c1 = int(a[i]);
             int c2 = int(b[i]);
@@ -21,13 +22,13 @@ int main()
             if(c1>c2)
             {
                 flag = true;
-                cout<<"B"<<endl;
+                cout<<"A"<<endl;
                 break;
             }
             else if(c1<c2)
             {
                 flag = true;
-                cout<<"A"<<endl;
+                cout<<"B"<<endl;
                 break;
             }
         }
