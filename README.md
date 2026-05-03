@@ -2,6 +2,8 @@
 
 A personal repository to track my daily DSA learning journey in C++. Covers core concepts, problem-solving techniques, and coding practice — from basic data structures to advanced algorithms. A step-by-step record of my progress towards mastering competitive programming and logic building.
 
+
+
 ## Topics Covered
 
 | Topic | Description | Status |
@@ -15,31 +17,53 @@ A personal repository to track my daily DSA learning journey in C++. Covers core
 | Dynamic Programming | Memoization, Tabulation | Pending |
 | Greedy Algorithms | Local optimal choices | Pending |
 
+
+
 ## CodeForces Good Questions that has been done till Now ...
 
 Here is a list of important CodeForces questions that has been done by me till now (also are tricky).
 
-| Problem Name | Link | Difficulty | Notes |
-| :--- | :--- | :--- | :--- |
-| NULL | NULL | NULL | NULL |
+| Problem Name | Link | Difficulty | Notes | Optimized Approach |
+| :--- | :--- | :--- | :--- | :--- | 
+| NULL | NULL | NULL | NULL | NULL |
+
+
 
 
 ## LeetCode Questions that has been done till Now ...
 
 Here is a list of important LeetCode questions that I done...
 
-| Problem Name | Link | Difficulty | Notes |
-| :--- | :--- | :--- | :--- |
-| Merge two Sorted Arrays | [Link](https://leetcode.com/problems/merge-sorted-array/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on first array and j on second array) |
+| Problem Name | Link | Difficulty | Notes | Optimized Approach |
+| :--- | :--- | :--- | :--- | :--- |
+| Merge two Sorted Arrays | [Link](https://leetcode.com/problems/merge-sorted-array/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on first array and j on second array) | NULL |
+| Second Largest Digit in a String | [Link](https://leetcode.com/problems/second-largest-digit-in-a-string/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on from starting of string and j on end of string) | NULL |
+
+
 
 
 ## Weekend Revision: LeetCode Problems
 
 Here is a list of important LeetCode questions that I need to revise every weekend to keep the concepts fresh.
 
-| Problem Name | Link | Difficulty | Notes |
-| :--- | :--- | :--- | :--- |
-| NULL | NULL | NULL | NULL |
+| Problem Name | Link | Difficulty | Notes | Optimized Approach |
+| :--- | :--- | :--- | :--- | :--- |
+| NULL | NULL | NULL | NULL | NULL |
+
+
+
+
+## Weekend Revision: Important Concepts Revision
+
+Here is a list of important Concepts of Data Structures and Algorithm that are either asked in interviews or are used extensively in Coding Rounds....
+
+| Concept Name | Source Topic |
+| :--- | :--- |
+| Insertion Sort | Sorting & Searching |
+| Bubble Sort | Sorting & Searching |
+| Selection Sort | Sorting & Searching |
+| Binary Search | Sorting & Searching |
+
 
 
 
