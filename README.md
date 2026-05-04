@@ -37,7 +37,9 @@ Here is a list of important LeetCode questions that I done...
 | Problem Name | Link | Difficulty | Notes | Optimized Approach |
 | :--- | :--- | :--- | :--- | :--- |
 | Merge two Sorted Arrays | [Link](https://leetcode.com/problems/merge-sorted-array/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on first array and j on second array) | NULL |
-| Second Largest Digit in a String | [Link](https://leetcode.com/problems/second-largest-digit-in-a-string/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on from starting of string and j on end of string) | NULL |
+| Second Largest Digit in a String | [Link](https://leetcode.com/problems/second-largest-digit-in-a-string/) | <span style="color: green; font-weight: bold;">Medium</span> | Two Pointer approach(i on from starting of string and j on end of string) | NULL |
+| Reverse Vowels in a String | [Link](https://leetcode.com/problems/reverse-vowels-of-a-string/) | <span style="color: green; font-weight: bold;">Easy</span> | Two Pointer approach(i on from starting of string and j on end of string) and one by one check for vowel | NULL |
+| Reverse Vowels in a String | [Link](https://leetcode.com/problems/container-with-most-water/) | <span style="color: green; font-weight: bold;">Medium</span> | Two Pointer approach(i on from starting of string and j on end of string) and change index of that one which has less height | NULL |
 
 
 
