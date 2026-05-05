@@ -13,7 +13,6 @@ int main()
         string s;
         int count = 1;
         char initial = st[0];
-        s = s + initial;
         for(int j = 1 ; j<st.length() ; j++)
         {
             if(st[j] == initial)
@@ -22,18 +21,19 @@ int main()
             }
             else if(st[j] != initial)
             {
-                if(count != 1)
+                s = s + initial;
+                if(count > 1)
                 {
                     s = s + to_string(count);
                 }
                 initial = st[j];
-                s = s + initial;
                 count=1;
             }
-            if(j == st.length()-1)
-            {
-                s = s + to_string(count);
-            }
+        }
+        s = s + initial;
+        if(count > 1)
+        {
+            s = s + to_string(count);
         }
         cout<<s<<endl;
     }
