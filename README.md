@@ -41,7 +41,7 @@ A personal repository to track my daily DSA learning journey in C++. Covers core
 
 | # | Question Name | Link | Difficulty | Topic | Done | Revision |
 |---|:---|:---|:---:|:---|:---:|:---:|
-| 1 | Two Sum | [🔗 Link](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
+| 1 | Two Sum | [🔗 Link](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Arrays | ✅ | ⬜ |
 | 2 | Best Time to Buy and Sell Stock | [🔗 Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
 | 3 | Contains Duplicate | [🔗 Link](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
 | 4 | Maximum Subarray | [🔗 Link](https://leetcode.com/problems/maximum-subarray/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
