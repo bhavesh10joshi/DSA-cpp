@@ -42,10 +42,10 @@ A personal repository to track my daily DSA learning journey in C++. Covers core
 | # | Question Name | Link | Difficulty | Topic | Done | Revision |
 |---|:---|:---|:---:|:---|:---:|:---:|
 | 1 | Two Sum | [🔗 Link](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Arrays | ✅ | ⬜ |
-| 2 | Best Time to Buy and Sell Stock | [🔗 Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
-| 3 | Contains Duplicate | [🔗 Link](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
+| 2 | Best Time to Buy and Sell Stock | [🔗 Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Arrays | ✅ | 🔄 |
+| 3 | Contains Duplicate | [🔗 Link](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Arrays | ✅ | ⬜ |
 | 4 | Maximum Subarray | [🔗 Link](https://leetcode.com/problems/maximum-subarray/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
-| 5 | Merge Sorted Array | [🔗 Link](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | Arrays | ✅ | ⬜ |
+| 5 | Merge Sorted Array | [🔗 Link](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
 | 6 | Remove Duplicates from Sorted Array | [🔗 Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
 | 7 | Remove Element | [🔗 Link](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
 | 8 | Search Insert Position | [🔗 Link](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Arrays | ⬜ | ⬜ |
