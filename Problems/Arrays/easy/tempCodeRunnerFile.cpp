@@ -1,0 +1,1 @@
+    Reversal(vec , 0 , vec.size()-1);
