@@ -180,8 +180,8 @@
 | 8 | Leaders in an Array | [🔗](https://takeuforward.org/arrays/leaders-in-an-array/) | 🔵 Medium | ✅ | ⬜ |
 | 9 | Longest Consecutive Sequence | [🔗](https://leetcode.com/problems/longest-consecutive-sequence/) | 🔵 Medium | ✅ | ⬜ |
 | 10 | Set Matrix Zeroes | [🔗](https://leetcode.com/problems/set-matrix-zeroes/) | 🔵 Medium | ✅ | ⬜ |
-| 11 | Rotate Image by 90 Degrees | [🔗](https://leetcode.com/problems/rotate-image/) | 🔵 Medium | ⬜ | ⬜ |
-| 12 | Spiral Order Matrix | [🔗](https://leetcode.com/problems/spiral-matrix/) | 🔵 Medium | ⬜ | ⬜ |
+| 11 | Rotate Image by 90 Degrees | [🔗](https://leetcode.com/problems/rotate-image/) | 🔵 Medium | ✅ | ⬜ |
+| 12 | Spiral Order Matrix | [🔗](https://leetcode.com/problems/spiral-matrix/) | 🔵 Medium | ✅ | ⬜ |
 | 13 | Count Subarrays with given Sum | [🔗](https://leetcode.com/problems/subarray-sum-equals-k/) | 🔵 Medium | ⬜ | ⬜ |
 
 ### 📌 3.3 — Hard Problems
