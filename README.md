@@ -182,7 +182,7 @@
 | 10 | Set Matrix Zeroes | [🔗](https://leetcode.com/problems/set-matrix-zeroes/) | 🔵 Medium | ✅ | ⬜ |
 | 11 | Rotate Image by 90 Degrees | [🔗](https://leetcode.com/problems/rotate-image/) | 🔵 Medium | ✅ | ⬜ |
 | 12 | Spiral Order Matrix | [🔗](https://leetcode.com/problems/spiral-matrix/) | 🔵 Medium | ✅ | ⬜ |
-| 13 | Count Subarrays with given Sum | [🔗](https://leetcode.com/problems/subarray-sum-equals-k/) | 🔵 Medium | ⬜ | ⬜ |
+| 13 | Count Subarrays with given Sum | [🔗](https://leetcode.com/problems/subarray-sum-equals-k/) | 🔵 Medium | ✅ | ⬜ |
 
 ### 📌 3.3 — Hard Problems
 
