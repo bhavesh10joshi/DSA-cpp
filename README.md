@@ -189,10 +189,10 @@
 | # | Problem | Link | Difficulty | Done | Revision |
 |---|:--------|:-----|:----------:|:----:|:--------:|
 | 1 | Pascals Triangle | [🔗](https://leetcode.com/problems/pascals-triangle/) | 🔴 Hard | ⬜ | ⬜ |
-| 2 | Majority Element (more than n/3 times) | [🔗](https://leetcode.com/problems/majority-element-ii/) | 🔴 Hard | ⬜ | ⬜ |
-| 3 | 3-Sum Problem | [🔗](https://leetcode.com/problems/3sum/) | 🔴 Hard | ⬜ | ⬜ |
-| 4 | 4-Sum Problem | [🔗](https://leetcode.com/problems/4sum/) | 🔴 Hard | ⬜ | ⬜ |
-| 5 | Largest Subarray with 0 Sum | [🔗](https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/) | 🔴 Hard | ⬜ | ⬜ |
+| 2 | Majority Element (more than n/3 times) | [🔗](https://leetcode.com/problems/majority-element-ii/) | 🔴 Hard | ✅ | ⬜ |
+| 3 | 3-Sum Problem | [🔗](https://leetcode.com/problems/3sum/) | 🔴 Hard | ✅ | ⬜ |
+| 4 | 4-Sum Problem | [🔗](https://leetcode.com/problems/4sum/) | 🔴 Hard | ✅ | ⬜ |
+| 5 | Largest Subarray with 0 Sum | [🔗](https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/) | 🔴 Hard | ✅ | ⬜ |
 | 6 | Count Subarrays with given XOR | [🔗](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/) | 🔴 Hard | ⬜ | ⬜ |
 | 7 | Merge Overlapping Intervals | [🔗](https://leetcode.com/problems/merge-intervals/) | 🔴 Hard | ⬜ | ⬜ |
 | 8 | Merge Two Sorted Arrays Without Extra Space | [🔗](https://leetcode.com/problems/merge-sorted-array/) | 🔴 Hard | ⬜ | ⬜ |

@@ -69,7 +69,7 @@ int main()
     for(int i = 0 ; i<vec.size() ; i++)
     {
         if(vec[i] == vec[i-1] && i>0) continue;
-        
+
         int j = i+1 , k=vec.size()-1;
         while(j<k)
         {
