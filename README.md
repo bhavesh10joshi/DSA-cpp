@@ -193,9 +193,9 @@
 | 3 | 3-Sum Problem | [🔗](https://leetcode.com/problems/3sum/) | 🔴 Hard | ✅ | ⬜ |
 | 4 | 4-Sum Problem | [🔗](https://leetcode.com/problems/4sum/) | 🔴 Hard | ✅ | ⬜ |
 | 5 | Largest Subarray with 0 Sum | [🔗](https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/) | 🔴 Hard | ✅ | ⬜ |
-| 6 | Count Subarrays with given XOR | [🔗](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/) | 🔴 Hard | ⬜ | ⬜ |
-| 7 | Merge Overlapping Intervals | [🔗](https://leetcode.com/problems/merge-intervals/) | 🔴 Hard | ⬜ | ⬜ |
-| 8 | Merge Two Sorted Arrays Without Extra Space | [🔗](https://leetcode.com/problems/merge-sorted-array/) | 🔴 Hard | ⬜ | ⬜ |
+| 6 | Count Subarrays with given XOR | [🔗](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/) | 🔴 Hard | ✅ | ⬜ |
+| 7 | Merge Overlapping Intervals | [🔗](https://leetcode.com/problems/merge-intervals/) | 🔴 Hard | ✅ | ⬜ |
+| 8 | Merge Two Sorted Arrays Without Extra Space | [🔗](https://leetcode.com/problems/merge-sorted-array/) | 🔴 Hard | ✅ | ⬜ |
 | 9 | Find the Repeating and Missing Number | [🔗](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/) | 🔴 Hard | ⬜ | ⬜ |
 | 10 | Count Inversions in an Array | [🔗](https://takeuforward.org/data-structure/count-inversions-in-an-array/) | 🔴 Hard | ⬜ | ⬜ |
 | 11 | Reverse Pairs | [🔗](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | ⬜ | ⬜ |

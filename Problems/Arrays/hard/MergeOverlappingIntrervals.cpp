@@ -21,25 +21,43 @@ int main()
     }
 
     // Brute Force Approach
-    vector<vector<int>>ans;
-    sort(vec.begin() , vec.end());
+    // vector<vector<int>>ans;
+    // sort(vec.begin() , vec.end());
     
+    // for(int i = 0 ; i<vec.size() ; i++)
+    // {
+    //     if(!ans.empty() && ans[ans.size()-1][1] >= vec[i][0])
+    //     {
+    //         continue;
+    //     }
+    //     int start = vec[i][0];
+    //     int end = vec[i][1];
+    //     for(int j = i+1 ; j<vec.size() ; j++)
+    //     {
+    //         if(end >= vec[j][0])
+    //         {
+    //             end = max(end , vec[j][1]);
+    //         }
+    //         else 
+    //         {
+    //             break;
+    //         }
+    //     }
+    //     ans.push_back({end, max(end , start)});
+    // }
+    
+    // Optimal Approach
+    vector<vector<int>>ans;
+
     for(int i = 0 ; i<vec.size() ; i++)
     {
-        if(!ans.empty() && ans[ans.size()-1][1] >= vec[i][0])
+        if(ans.empty() || ans[ans.size()-1][1] < vec[i][0])
         {
-            continue;
+            ans.push_back(vec[i]);
         }
-        for(int j = i+1 ; j<vec.size() ; j++)
+        else
         {
-            if(vec[i][1] >= vec[j][0])
-            {
-                ans.push_back({vec[i][0], max(vec[i][1] , vec[j][1])});
-            }
-            else 
-            {
-                break;
-            }
+            vec[i][1] = max(ans[ans.size()-1][1],vec[i][1]);
         }
     }
     
