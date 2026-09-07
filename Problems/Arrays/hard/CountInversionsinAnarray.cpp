@@ -1,20 +1,6 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int Sort(vector<int>&vec , int high , int low)
-{
-    int count = 0;
-    int mid = (high + low)/2;
-
-    if(low>=high)
-    {
-        return;
-    }
-    count = count + Sort(vec , mid , low);
-    count = count + Sort(vec , mid+1 , high);
-    count = count + merge(vec , high , mid , low);
-    return count;
-}
 int merge(vector<int>&vec , int high , int mid , int low)
 {
     int count = 0;
@@ -23,7 +9,7 @@ int merge(vector<int>&vec , int high , int mid , int low)
     vector<int>temp;
     while(left<=mid && right<=high)
     {
-        if(vec[left]>=vec[right])
+        if(vec[left]>vec[right])
         {
             count = count + ((mid-left)+1);
             temp.push_back(vec[right]);
@@ -40,15 +26,29 @@ int merge(vector<int>&vec , int high , int mid , int low)
         temp.push_back(vec[left]);
         left++;
     }
-    while(left<=mid)
+    while(right<=high)
     {
-        temp.push_back(vec[left]);
-        left++;
+        temp.push_back(vec[right]);
+        right++;
     }
     for(int i = low ; i<=high ; i++)
     {
         vec[i] = temp[i-low];
     }
+    return count;
+}
+int Sort(vector<int>&vec , int high , int low)
+{
+    int count = 0;
+    int mid = (high + low)/2;
+
+    if(low>=high)
+    {
+        return count;
+    }
+    count = count + Sort(vec , mid , low);
+    count = count + Sort(vec , high , mid+1);
+    count = count + merge(vec , high , mid , low);
     return count;
 }
 int main()
