@@ -196,10 +196,10 @@
 | 6 | Count Subarrays with given XOR | [🔗](https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/) | 🔴 Hard | ✅ | ⬜ |
 | 7 | Merge Overlapping Intervals | [🔗](https://leetcode.com/problems/merge-intervals/) | 🔴 Hard | ✅ | ⬜ |
 | 8 | Merge Two Sorted Arrays Without Extra Space | [🔗](https://leetcode.com/problems/merge-sorted-array/) | 🔴 Hard | ✅ | ⬜ |
-| 9 | Find the Repeating and Missing Number | [🔗](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/) | 🔴 Hard | ⬜ | ⬜ |
-| 10 | Count Inversions in an Array | [🔗](https://takeuforward.org/data-structure/count-inversions-in-an-array/) | 🔴 Hard | ⬜ | ⬜ |
-| 11 | Reverse Pairs | [🔗](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | ⬜ | ⬜ |
-| 12 | Maximum Product Subarray | [🔗](https://leetcode.com/problems/maximum-product-subarray/) | 🔴 Hard | ⬜ | ⬜ |
+| 9 | Find the Repeating and Missing Number | [🔗](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/) | 🔴 Hard | ✅ | ⬜ |
+| 10 | Count Inversions in an Array | [🔗](https://takeuforward.org/data-structure/count-inversions-in-an-array/) | 🔴 Hard | ✅ | ⬜ |
+| 11 | Reverse Pairs | [🔗](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | ✅ | ⬜ |
+| 12 | Maximum Product Subarray | [🔗](https://leetcode.com/problems/maximum-product-subarray/) | 🔴 Hard | ✅ | ⬜ |
 
 ---
 
@@ -209,16 +209,16 @@
 
 | # | Problem | Link | Difficulty | Done | Revision |
 |---|:--------|:-----|:----------:|:----:|:--------:|
-| 1 | Binary Search | [🔗](https://leetcode.com/problems/binary-search/) | 🟢 Easy | ⬜ | ⬜ |
-| 2 | Implement Lower Bound | [🔗](https://takeuforward.org/arrays/implement-lower-bound/) | 🟢 Easy | ⬜ | ⬜ |
-| 3 | Implement Upper Bound | [🔗](https://takeuforward.org/arrays/implement-upper-bound/) | 🟢 Easy | ⬜ | ⬜ |
-| 4 | Search Insert Position | [🔗](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | ⬜ | ⬜ |
-| 5 | Floor / Ceil in Sorted Array | [🔗](https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/) | 🟢 Easy | ⬜ | ⬜ |
-| 6 | First or Last Occurrence in Sorted Array | [🔗](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
-| 7 | Count Occurrences in Sorted Array | [🔗](https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
-| 8 | Search in Rotated Sorted Array I | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
-| 9 | Search in Rotated Sorted Array II | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🔵 Medium | ⬜ | ⬜ |
-| 10 | Find Minimum in Rotated Sorted Array | [🔗](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
+| 1 | Binary Search | [🔗](https://leetcode.com/problems/binary-search/) | 🟢 Easy | ✅ | ⬜ |
+| 2 | Implement Lower Bound | [🔗](https://takeuforward.org/arrays/implement-lower-bound/) | 🟢 Easy | ✅ | ⬜ |
+| 3 | Implement Upper Bound | [🔗](https://takeuforward.org/arrays/implement-upper-bound/) | 🟢 Easy | ✅ | ⬜ |
+| 4 | Search Insert Position | [🔗](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | ✅ | ⬜ |
+| 5 | Floor / Ceil in Sorted Array | [🔗](https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/) | 🟢 Easy | ✅ | ⬜ |
+| 6 | First or Last Occurrence in Sorted Array | [🔗](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
+| 7 | Count Occurrences in Sorted Array | [🔗](https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
+| 8 | Search in Rotated Sorted Array I | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
+| 9 | Search in Rotated Sorted Array II | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🔵 Medium | ✅ | ⬜ |
+| 10 | Find Minimum in Rotated Sorted Array | [🔗](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
 | 11 | Find How Many Times Array Has Been Rotated | [🔗](https://takeuforward.org/arrays/find-out-how-many-times-array-has-been-rotated/) | 🔵 Medium | ⬜ | ⬜ |
 | 12 | Single Element in a Sorted Array | [🔗](https://leetcode.com/problems/single-element-in-a-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
 | 13 | Find Peak Element | [🔗](https://leetcode.com/problems/find-peak-element/) | 🔵 Medium | ⬜ | ⬜ |
