@@ -219,25 +219,25 @@
 | 8 | Search in Rotated Sorted Array I | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
 | 9 | Search in Rotated Sorted Array II | [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🔵 Medium | ✅ | ⬜ |
 | 10 | Find Minimum in Rotated Sorted Array | [🔗](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
-| 11 | Find How Many Times Array Has Been Rotated | [🔗](https://takeuforward.org/arrays/find-out-how-many-times-array-has-been-rotated/) | 🔵 Medium | ⬜ | ⬜ |
-| 12 | Single Element in a Sorted Array | [🔗](https://leetcode.com/problems/single-element-in-a-sorted-array/) | 🔵 Medium | ⬜ | ⬜ |
-| 13 | Find Peak Element | [🔗](https://leetcode.com/problems/find-peak-element/) | 🔵 Medium | ⬜ | ⬜ |
+| 11 | Find How Many Times Array Has Been Rotated | [🔗](https://takeuforward.org/arrays/find-out-how-many-times-array-has-been-rotated/) | 🔵 Medium | ✅ | ⬜ |
+| 12 | Single Element in a Sorted Array | [🔗](https://leetcode.com/problems/single-element-in-a-sorted-array/) | 🔵 Medium | ✅ | ⬜ |
+| 13 | Find Peak Element | [🔗](https://leetcode.com/problems/find-peak-element/) | 🔵 Medium | ✅ | ⬜ |
 
 ### 📌 4.2 — BS on Answers
 
 | # | Problem | Link | Difficulty | Done | Revision |
 |---|:--------|:-----|:----------:|:----:|:--------:|
-| 1 | Square Root using Binary Search | [🔗](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | ⬜ | ⬜ |
-| 2 | Nth Root of a Number | [🔗](https://takeuforward.org/arrays/find-nth-root-of-a-number-using-binary-search/) | 🟢 Easy | ⬜ | ⬜ |
-| 3 | Koko Eating Bananas | [🔗](https://leetcode.com/problems/koko-eating-bananas/) | 🔵 Medium | ⬜ | ⬜ |
-| 4 | Minimum Days to Make M Bouquets | [🔗](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | 🔵 Medium | ⬜ | ⬜ |
-| 5 | Find the Smallest Divisor | [🔗](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | 🔵 Medium | ⬜ | ⬜ |
-| 6 | Capacity to Ship Packages within D Days | [🔗](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🔵 Medium | ⬜ | ⬜ |
-| 7 | Kth Missing Positive Number | [🔗](https://leetcode.com/problems/kth-missing-positive-number/) | 🟢 Easy | ⬜ | ⬜ |
-| 8 | Aggressive Cows | [🔗](https://www.spoj.com/problems/AGGRCOW/) | 🔵 Medium | ⬜ | ⬜ |
-| 9 | Book Allocation Problem | [🔗](https://www.geeksforgeeks.org/allocate-minimum-number-pages/) | 🔵 Medium | ⬜ | ⬜ |
-| 10 | Split Array — Largest Sum | [🔗](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | ⬜ | ⬜ |
-| 11 | Painters Partition | [🔗](https://takeuforward.org/data-structure/painters-partition-problem-binary-search/) | 🔴 Hard | ⬜ | ⬜ |
+| 1 | Square Root using Binary Search | [🔗](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | ✅ | ⬜ |
+| 2 | Nth Root of a Number | [🔗](https://takeuforward.org/arrays/find-nth-root-of-a-number-using-binary-search/) | 🟢 Easy | ✅ | ⬜ |
+| 3 | Koko Eating Bananas | [🔗](https://leetcode.com/problems/koko-eating-bananas/) | 🔵 Medium | ✅ | ⬜ |
+| 4 | Minimum Days to Make M Bouquets | [🔗](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | 🔵 Medium | ✅ | ⬜ |
+| 5 | Find the Smallest Divisor | [🔗](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | 🔵 Medium | ✅ | ⬜ |
+| 6 | Capacity to Ship Packages within D Days | [🔗](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🔵 Medium | ✅ | ⬜ |
+| 7 | Kth Missing Positive Number | [🔗](https://leetcode.com/problems/kth-missing-positive-number/) | 🟢 Easy | ✅ | ⬜ |
+| 8 | Aggressive Cows | [🔗](https://www.spoj.com/problems/AGGRCOW/) | 🔵 Medium | ✅ | ⬜ |
+| 9 | Book Allocation Problem | [🔗](https://www.geeksforgeeks.org/allocate-minimum-number-pages/) | 🔵 Medium | ✅ | ⬜ |
+| 10 | Split Array — Largest Sum | [🔗](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | ✅ | ⬜ |
+| 11 | Painters Partition | [🔗](https://takeuforward.org/data-structure/painters-partition-problem-binary-search/) | 🔴 Hard | ✅ | ⬜ |
 | 12 | Minimize Max Distance to Gas Station | [🔗](https://takeuforward.org/data-structure/minimize-the-maximum-distance-between-gas-stations/) | 🔴 Hard | ⬜ | ⬜ |
 | 13 | Median of Two Sorted Arrays | [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |
 | 14 | Kth Element of Two Sorted Arrays | [🔗](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |

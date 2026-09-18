@@ -48,6 +48,7 @@ int main()
     
     // Optimal Approach
     vector<vector<int>>ans;
+    sort(vec.begin() , vec.end());
 
     for(int i = 0 ; i<vec.size() ; i++)
     {
