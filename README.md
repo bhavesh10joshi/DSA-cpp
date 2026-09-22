@@ -238,7 +238,7 @@
 | 9 | Book Allocation Problem | [🔗](https://www.geeksforgeeks.org/allocate-minimum-number-pages/) | 🔵 Medium | ✅ | ⬜ |
 | 10 | Split Array — Largest Sum | [🔗](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | ✅ | ⬜ |
 | 11 | Painters Partition | [🔗](https://takeuforward.org/data-structure/painters-partition-problem-binary-search/) | 🔴 Hard | ✅ | ⬜ |
-| 12 | Minimize Max Distance to Gas Station | [🔗](https://takeuforward.org/data-structure/minimize-the-maximum-distance-between-gas-stations/) | 🔴 Hard | ⬜ | ⬜ |
+| 12 | Minimize Max Distance to Gas Station | [🔗](https://takeuforward.org/data-structure/minimize-the-maximum-distance-between-gas-stations/) | 🔴 Hard | ✅ | ⬜ |
 | 13 | Median of Two Sorted Arrays | [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |
 | 14 | Kth Element of Two Sorted Arrays | [🔗](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |
 
