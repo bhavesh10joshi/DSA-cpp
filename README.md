@@ -239,18 +239,18 @@
 | 10 | Split Array — Largest Sum | [🔗](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | ✅ | ⬜ |
 | 11 | Painters Partition | [🔗](https://takeuforward.org/data-structure/painters-partition-problem-binary-search/) | 🔴 Hard | ✅ | ⬜ |
 | 12 | Minimize Max Distance to Gas Station | [🔗](https://takeuforward.org/data-structure/minimize-the-maximum-distance-between-gas-stations/) | 🔴 Hard | ✅ | ⬜ |
-| 13 | Median of Two Sorted Arrays | [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |
-| 14 | Kth Element of Two Sorted Arrays | [🔗](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/) | 🔴 Hard | ⬜ | ⬜ |
+| 13 | Median of Two Sorted Arrays | [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | ✅ | ⬜ |
+| 14 | Kth Element of Two Sorted Arrays | [🔗](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/) | 🔴 Hard | ✅ | ⬜ |
 
 ### 📌 4.3 — BS on 2D Arrays
 
 | # | Problem | Link | Difficulty | Done | Revision |
 |---|:--------|:-----|:----------:|:----:|:--------:|
-| 1 | Row with Maximum Number of 1s | [🔗](https://takeuforward.org/data-structure/find-the-row-with-maximum-number-of-1s/) | 🟢 Easy | ⬜ | ⬜ |
-| 2 | Search in a 2D Matrix | [🔗](https://leetcode.com/problems/search-a-2d-matrix/) | 🔵 Medium | ⬜ | ⬜ |
-| 3 | Search in a 2D Matrix II | [🔗](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🔵 Medium | ⬜ | ⬜ |
-| 4 | Find Peak Element in 2D Matrix | [🔗](https://leetcode.com/problems/find-a-peak-element-ii/) | 🔴 Hard | ⬜ | ⬜ |
-| 5 | Matrix Median | [🔗](https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/) | 🔴 Hard | ⬜ | ⬜ |
+| 1 | Row with Maximum Number of 1s | [🔗](https://takeuforward.org/data-structure/find-the-row-with-maximum-number-of-1s/) | 🟢 Easy | ✅ | ⬜ |
+| 2 | Search in a 2D Matrix | [🔗](https://leetcode.com/problems/search-a-2d-matrix/) | 🔵 Medium | ✅ | ⬜ |
+| 3 | Search in a 2D Matrix II | [🔗](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🔵 Medium | ✅ | ⬜ |
+| 4 | Find Peak Element in 2D Matrix | [🔗](https://leetcode.com/problems/find-a-peak-element-ii/) | 🔴 Hard | ✅ | ⬜ |
+| 5 | Matrix Median | [🔗](https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/) | 🔴 Hard | ✅ | ⬜ |
 
 ---
 
@@ -260,7 +260,7 @@
 
 | # | Problem | Link | Difficulty | Done | Revision |
 |---|:--------|:-----|:----------:|:----:|:--------:|
-| 1 | Remove Outermost Parentheses | [🔗](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | ⬜ | ⬜ |
+| 1 | Remove Outermost Parentheses | [🔗](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | ✅ | ⬜ |
 | 2 | Reverse Words in a String | [🔗](https://leetcode.com/problems/reverse-words-in-a-string/) | 🔵 Medium | ⬜ | ⬜ |
 | 3 | Largest Odd Number in a String | [🔗](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | ⬜ | ⬜ |
 | 4 | Longest Common Prefix | [🔗](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | ⬜ | ⬜ |
@@ -274,8 +274,8 @@
 |---|:--------|:-----|:----------:|:----:|:--------:|
 | 1 | Sort Characters by Frequency | [🔗](https://leetcode.com/problems/sort-characters-by-frequency/) | 🔵 Medium | ⬜ | ⬜ |
 | 2 | Maximum Nesting Depth of Parentheses | [🔗](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | ⬜ | ⬜ |
-| 3 | Roman Number to Integer | [🔗](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | ⬜ | ⬜ |
-| 4 | Implement Atoi | [🔗](https://leetcode.com/problems/string-to-integer-atoi/) | 🔵 Medium | ⬜ | ⬜ |
+| 3 | Roman Number to Integer | [🔗](https://leetcode.com/problems/roman-to-integer/) | 🟢 Easy | ✅ | ⬜ |
+| 4 | Implement Atoi | [🔗](https://leetcode.com/problems/string-to-integer-atoi/) | 🔵 Medium | ✅ | ⬜ |
 | 5 | Count Number of Substrings | [🔗](https://www.geeksforgeeks.org/count-number-of-substrings/) | 🔵 Medium | ⬜ | ⬜ |
 | 6 | Longest Palindromic Substring | [🔗](https://leetcode.com/problems/longest-palindromic-substring/) | 🔵 Medium | ⬜ | ⬜ |
 | 7 | Sum of Beauty of All Substrings | [🔗](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | 🔵 Medium | ⬜ | ⬜ |
@@ -874,11 +874,11 @@
 | Step 1 | Learn the Basics | ✅ Done |
 | Step 2 | Sorting Techniques | ✅ Done |
 | Step 3.1 | Arrays Easy | ✅ Done |
-| Step 3.2 | Arrays Medium up to Stock Buy and Sell | 🔄 In Progress |
-| Step 3.2 | Arrays Medium remaining | ⬜ Pending |
-| Step 3.3 | Arrays Hard | ⬜ Pending |
-| Step 4 | Binary Search | ⬜ Pending |
-| Step 5 | Strings | ⬜ Pending |
+| Step 3.2 | Arrays Medium up to Stock Buy and Sell | ✅ Done |
+| Step 3.2 | Arrays Medium remaining | ✅ Done |
+| Step 3.3 | Arrays Hard | ✅ Done |
+| Step 4 | Binary Search | ✅ Done |
+| Step 5 | Strings | 🔄 In Progress |
 | Step 6 | Linked Lists | ⬜ Pending |
 | Step 7 | Recursion and Backtracking | ⬜ Pending |
 | Step 8 | Bit Manipulation | ⬜ Pending |
